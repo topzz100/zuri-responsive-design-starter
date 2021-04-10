@@ -53,6 +53,7 @@ ul li a:hover {
         justify-content:space-between;
         padding: 1rem;
         width: 100vw;
+        
     }
     div.logo{
         font-size: 1.3rem;
@@ -61,16 +62,21 @@ ul li a:hover {
         display: block;
         float: right;
     }
+    ul li.dropdownIcon{
+        display:block;
+        float: inherit;
+    }
     ul.nav-links li{
         display:none;
     }
     ul.nav-links.responsive{
         position:relative;
     }
-    ul.nav-links.relative li{
+    ul.nav-links.responsive li{
         display:inline;
         float: none;
         background: white;
+        
 
     }
     ul.nav-links.responsive li a{
